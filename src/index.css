@@ -36,7 +36,7 @@
 
   /* —— 纸张颗粒叠加（全局或区块，配 texture-grain.jpg） —— */
   .grain-overlay {
-    background-image: url("/texture-grain.jpg");
+    background-image: url("./assets/texture-grain.jpg");
     background-size: 180px 180px;
     mix-blend-mode: overlay;
     pointer-events: none;

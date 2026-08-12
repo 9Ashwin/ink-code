@@ -37,6 +37,9 @@ export interface Post {
   body: { title: string; paragraphs: string[] }[]
 }
 
+/** GitHub Pages 子路径部署下，public 资源须经 BASE_URL 拼接，禁止硬编码根路径 */
+export const asset = (p: string) => import.meta.env.BASE_URL + p
+
 export const profile = {
   name: '陈未远',
   nameEn: 'Chen Weiyuan',
@@ -44,9 +47,9 @@ export const profile = {
   role: 'FULL-STACK ENGINEER',
   roleZh: '全栈工程师',
   tagline: '写代码，也写杂志般的代码注释。',
-  portraitHero: '/portrait-hero.jpg',
-  portraitAbout: '/portrait-about.jpg',
-  collage: '/collage-desk.jpg',
+  portraitHero: asset('portrait-hero.jpg'),
+  portraitAbout: asset('portrait-about.jpg'),
+  collage: asset('collage-desk.jpg'),
   location: '上海',
   timezone: 'UTC+8',
   status: 'OPEN TO WORK',
@@ -91,7 +94,7 @@ export const projects: Project[] = [
     id: 'devflow', no: '01', name: 'DevFlow 流水线', nameEn: 'VISUAL CI/CD ORCHESTRATOR',
     desc: 'CI/CD 可视化编排平台，让每一次部署都像翻杂志一样顺滑。',
     year: '2024', cat: 'WEB 应用', stack: ['TypeScript', 'React', 'Node.js'],
-    cover: '/proj-devflow.jpg', featured: true,
+    cover: asset('proj-devflow.jpg'), featured: true,
     role: 'LEAD DEV', team: '5 人', status: 'IN PRODUCTION',
     summary: '把 Docker 化 CI/CD 流水线抽象成可拖拽的可视化 DAG，用状态机保证每一步可回放、可暂停、可续跑。',
     challenge: '公司数百条流水线散落在 YAML 与脚本里，构建失败定位一次平均要 40 分钟。',
@@ -106,7 +109,7 @@ export const projects: Project[] = [
     id: 'atlas', no: '02', name: 'Atlas 图谱引擎', nameEn: 'REAL-TIME KNOWLEDGE GRAPH',
     desc: '实时协作知识图谱，十万节点，六十帧。',
     year: '2024', cat: '图形与可视化', stack: ['Rust', 'WASM', 'WebGL'],
-    cover: '/proj-atlas.jpg', featured: true,
+    cover: asset('proj-atlas.jpg'), featured: true,
     role: 'CORE DEV', team: '4 人', status: 'OPEN SOURCE',
     summary: 'Rust 编写图布局引擎编译到 WASM，WebGL 渲染十万级节点保持 60fps，支持多人实时协同编辑。',
     challenge: '十万节点 + 多人协同 = 布局计算与 WebGL 重绘的双重瓶颈。',
@@ -121,7 +124,7 @@ export const projects: Project[] = [
     id: 'pulse', no: '03', name: 'Pulse 健康监控', nameEn: 'MOBILE OBSERVABILITY APP',
     desc: '把告警做成晨报的移动端全栈监控 App。',
     year: '2023', cat: '移动端', stack: ['React Native', 'Go'],
-    cover: '/proj-pulse.jpg', featured: true,
+    cover: asset('proj-pulse.jpg'), featured: true,
     role: 'FULL-STACK', team: '3 人', status: 'SHIPPED',
     summary: '面向中小团队的移动监控台：告警聚合、晨报推送、一键进入上下文排查。',
     challenge: '监控数据噪声大，运维同学被告警淹没却错过真问题。',
@@ -136,7 +139,7 @@ export const projects: Project[] = [
     id: 'tinycc', no: '04', name: 'TinyCC 编译器', nameEn: 'C SUBSET TO LLVM',
     desc: '从零到 hello world，只用 4000 行。',
     year: '2023', cat: '开源工具', stack: ['Rust', 'LLVM'],
-    cover: '/proj-compiler.jpg', featured: true,
+    cover: asset('proj-compiler.jpg'), featured: true,
     role: 'SOLO DEV', team: '1 人', status: 'OPEN SOURCE',
     summary: '教学用 C 子集编译器，词法/语法/语义/LLVM IR 生成全链路，注释比代码更幽默。',
     challenge: '让“写一个编译器”从黑魔法变成普通人两周能啃完的教程。',
@@ -151,7 +154,7 @@ export const projects: Project[] = [
     id: 'garden', no: '05', name: 'Markdown Garden', nameEn: 'LOCAL-FIRST NOTES',
     desc: '本地优先、双向链接的笔记工具，文件就是一切。',
     year: '2022', cat: '开源工具', stack: ['Tauri', 'Svelte'],
-    cover: '/proj-terminal.jpg',
+    cover: asset('proj-terminal.jpg'),
     role: 'SOLO DEV', team: '1 人', status: 'OPEN SOURCE',
     summary: 'Tauri 打包的本地优先笔记工具，笔记就是 Markdown 文件，双向链接与图谱可视。',
     challenge: '云端笔记让你成为自己数据的租户。',
@@ -166,7 +169,7 @@ export const projects: Project[] = [
     id: 'gridbot', no: '06', name: 'Gridbot', nameEn: 'GRID TRADING BACKTEST',
     desc: '交易网格策略回测框架，参数扫描一把梭。',
     year: '2022', cat: '开源工具', stack: ['Python', 'Pandas'],
-    cover: '/proj-terminal.jpg',
+    cover: asset('proj-terminal.jpg'),
     role: 'SOLO DEV', team: '1 人', status: 'OPEN SOURCE',
     summary: '网格交易策略回测框架，支持参数网格扫描与可视化归因。',
     challenge: '回测引擎要快、要可复现，还要能解释每一笔盈亏从哪来。',
@@ -181,7 +184,7 @@ export const projects: Project[] = [
     id: 'typo', no: '07', name: 'Typo 中文排版引擎', nameEn: 'CHINESE TYPOGRAPHY LIB',
     desc: 'Web 中文排版库，让标点悬挂成为默认。',
     year: '2021', cat: '开源工具', stack: ['TypeScript'],
-    cover: '/proj-compiler.jpg', stamp: 'OPEN SOURCE',
+    cover: asset('proj-compiler.jpg'), stamp: 'OPEN SOURCE',
     role: 'CORE DEV', team: '2 人', status: 'OPEN SOURCE',
     summary: '面向中文 Web 的排版库：标点悬挂、两端对齐、孤行控制。',
     challenge: '浏览器对中文排版的原生支持远落后于英文。',
@@ -196,7 +199,7 @@ export const projects: Project[] = [
     id: 'dotfiles', no: '08', name: 'Dotfiles', nameEn: 'ENVIRONMENT AS CODE',
     desc: '开发环境即代码，换机 20 分钟重建一切。',
     year: '2019—', cat: '开源工具', stack: ['Shell', 'Lua'],
-    cover: '/proj-terminal.jpg', stamp: 'LONGTERM',
+    cover: asset('proj-terminal.jpg'), stamp: 'LONGTERM',
     role: 'SOLO DEV', team: '1 人', status: 'MAINTAINED',
     summary: '持续维护多年的开发环境仓库：Neovim / zsh / tmux 配置即代码，一键换机。',
     challenge: '配置会腐烂，环境不可复现，换机器像重新学走路。',
@@ -301,7 +304,7 @@ export const certificates = [
 export const posts: Post[] = [
   {
     id: 'fp-mental-health', title: '函数式编程治好了我的精神内耗', date: '2025.02.18',
-    cat: '随想', read: '14 MIN READ', cover: '/blog-cover-1.jpg', feature: true,
+    cat: '随想', read: '14 MIN READ', cover: asset('blog-cover-1.jpg'), feature: true,
     excerpt: '当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。',
     body: [
       { title: '控制欲的错觉', paragraphs: ['写命令式代码时，我总想亲手拧住每一个状态，仿佛松开手程序就会崩塌。后来我发现真正让程序崩塌的，恰好是这种事无巨细的控制。', '函数式的第一步不是学 monad，而是接受一件事：状态不该被“维护”，只该被“推导”。让数据流替你说话。'] },
@@ -311,7 +314,7 @@ export const posts: Post[] = [
   },
   {
     id: 'rust-build-script', title: '我用 Rust 重写了公司的构建脚本', date: '2025.01.06',
-    cat: '工程实践', read: '8 MIN READ', cover: '/blog-cover-4.jpg',
+    cat: '工程实践', read: '8 MIN READ', cover: asset('blog-cover-4.jpg'),
     excerpt: '一段 900 行的 Bash 被 300 行 Rust 替代，构建时间从 11 分钟掉到 3 分钟。这不是炫技，是工程债清偿。',
     body: [
       { title: '为什么是 Bash 的锅', paragraphs: ['Bash 适合粘合命令，不适合描述构建逻辑。分支一多，引号与空格就联合起来报复你。', '我们把增量编译、缓存校验、并行任务全部搬进 Rust，用类型把“错误路径”提前锁死。'] },
@@ -320,7 +323,7 @@ export const posts: Post[] = [
   },
   {
     id: 'pg-index', title: 'PostgreSQL 索引：一本被翻烂的书', date: '2024.11.02',
-    cat: '工程实践', read: '10 MIN READ', cover: '/blog-cover-2.jpg',
+    cat: '工程实践', read: '10 MIN READ', cover: asset('blog-cover-2.jpg'),
     excerpt: 'B+ 树、位图扫描、覆盖索引、部分索引——用一张表把索引讲成图书馆的检索系统。',
     body: [
       { title: '索引是目录，不是藏书', paragraphs: ['索引不存数据，它只告诉你数据在哪一页。理解这一点，就理解了为什么“别在低基数列上建索引”。'] },
@@ -329,7 +332,7 @@ export const posts: Post[] = [
   },
   {
     id: 'web-cn-typo', title: 'Web 中文排版的 100 个细节', date: '2024.09.15',
-    cat: '语言与工具', read: '12 MIN READ', cover: '/blog-cover-3.jpg',
+    cat: '语言与工具', read: '12 MIN READ', cover: asset('blog-cover-3.jpg'),
     excerpt: '标点悬挂、孤行控制、中文引号、竖排注释……中文排版在 Web 上欠了太多债，这是还债清单的第一页。',
     body: [
       { title: '标点不是装饰', paragraphs: ['中文标点占全角，排版的难点在于悬挂与压缩。好的中文排版，读者不会注意到标点——因为它从不捣乱。'] },
@@ -338,7 +341,7 @@ export const posts: Post[] = [
   },
   {
     id: 'vim-neovim', title: '从 Vim 到 Neovim：一个配置即代码的故事', date: '2024.06.20',
-    cat: '语言与工具', read: '9 MIN READ', cover: '/blog-cover-4.jpg',
+    cat: '语言与工具', read: '9 MIN READ', cover: asset('blog-cover-4.jpg'),
     excerpt: '我的 .config 是我的第二大脑。这份配置随我搬了五次家（机器），每次重建都不超过二十分钟。',
     body: [
       { title: '配置即代码', paragraphs: ['把配置当项目维护：版本管理、issue 追踪、文档齐全。换机不再是一场灾难，而是一次清爽的重装。'] },
@@ -347,7 +350,7 @@ export const posts: Post[] = [
   },
   {
     id: 'refactor-refactor', title: '重构一次失败的重构', date: '2024.03.11',
-    cat: '随想', read: '7 MIN READ', cover: '/blog-cover-2.jpg',
+    cat: '随想', read: '7 MIN READ', cover: asset('blog-cover-2.jpg'),
     excerpt: '我们重构了三次，前两次都失败了。失败的原因不是技术，而是我们没有定义“重构成功”的标准。',
     body: [
       { title: '没有标准的重构是赌博', paragraphs: ['重构开始前，先写下可度量的成功标准：这段代码的下一个改动者能多快上手？测试覆盖是否不变？'] },
@@ -356,7 +359,7 @@ export const posts: Post[] = [
   },
   {
     id: 'crdt-intro', title: 'CRDT 入门：让协作编辑不再神秘（译）', date: '2023.12.05',
-    cat: '翻译', read: '11 MIN READ', cover: '/blog-cover-3.jpg',
+    cat: '翻译', read: '11 MIN READ', cover: asset('blog-cover-3.jpg'),
     excerpt: '无冲突复制数据类型，是多人实时协作的基石。这篇译文带你从“听过”到“会写一个”。',
     body: [
       { title: 'CRDT 在解决什么', paragraphs: ['两个节点同时编辑同一处，如何合并而不丢字？CRDT 给出一类数学上保证收敛的数据结构。'] },
@@ -365,7 +368,7 @@ export const posts: Post[] = [
   },
   {
     id: 'dev-env-2023', title: '我的 2023 开发环境全公开', date: '2023.08.19',
-    cat: '语言与工具', read: '6 MIN READ', cover: '/blog-cover-4.jpg',
+    cat: '语言与工具', read: '6 MIN READ', cover: asset('blog-cover-4.jpg'),
     excerpt: '终端、编辑器、窗口管理、快捷键一图流。工具不该是负担，配置不该是玄学。',
     body: [
       { title: '桌面', paragraphs: ['一台 16 寸 MacBook Pro + 一块 4K 屏。窗口管理交给 yabai，工作区按项目切。'] },
