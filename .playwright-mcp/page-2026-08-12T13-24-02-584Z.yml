@@ -1,0 +1,266 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e3]:
+    - banner [ref=f8e4]:
+      - generic [ref=f8e5]:
+        - link "C.W.Y — INK & CODE® VOL.01 — 2025" [ref=f8e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f8e7]:
+            - text: C.W.Y — INK & CODE
+            - superscript [ref=f8e8]: ®
+          - generic [ref=f8e9]: VOL.01 — 2025
+        - navigation "主导航" [ref=f8e10]:
+          - link "HOME" [ref=f8e11] [cursor=pointer]:
+            - /url: /
+          - link "WORKS" [ref=f8e12] [cursor=pointer]:
+            - /url: /projects
+          - link "PROFILE" [ref=f8e13] [cursor=pointer]:
+            - /url: /about
+          - link "WRITING" [ref=f8e14] [cursor=pointer]:
+            - /url: /blog
+          - link "CONTACT" [ref=f8e15] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=f8e16]:
+          - link "GitHub" [ref=f8e17] [cursor=pointer]:
+            - /url: https://github.com/chenweiyuan
+          - link "邮箱" [ref=f8e20] [cursor=pointer]:
+            - /url: mailto:hi@chenweiyuan.dev
+          - generic [ref=f8e24]: Open to Work
+    - main [ref=f8e29]:
+      - generic [ref=f8e31]:
+        - generic [ref=f8e33]:
+          - paragraph [ref=f8e34]: VOL.04 — WRITING / 工程随笔
+          - generic [ref=f8e35]:
+            - generic [ref=f8e36]:
+              - heading "写 作" [level=1] [ref=f8e37]:
+                - generic [ref=f8e38]: 写
+                - generic [ref=f8e39]: 作
+              - generic [ref=f8e40]: Essays & Notes
+            - paragraph [ref=f8e41]: 12 篇长文 · 约 8 万字
+          - paragraph [ref=f8e42]:
+            - generic [ref=f8e43]: 写作是把脑子里纠缠的线团，理成别人能走的路。
+          - generic [ref=f8e44]:
+            - button "全部" [ref=f8e45] [cursor=pointer]
+            - button "工程实践" [ref=f8e46] [cursor=pointer]
+            - button "语言与工具" [ref=f8e47] [cursor=pointer]
+            - button "随想" [ref=f8e48] [cursor=pointer]
+            - button "翻译" [ref=f8e49] [cursor=pointer]
+        - generic [ref=f8e51]:
+          - button "函数式编程治好了我的精神内耗 LATEST / 最新" [ref=f8e52] [cursor=pointer]:
+            - generic [ref=f8e53]:
+              - img "函数式编程治好了我的精神内耗" [ref=f8e54]
+              - generic [ref=f8e56]: LATEST / 最新
+          - 'button "2025.02.18 · 14 MIN READ · #随想 《 函 数 式 编 程 治 好 了 我 的 精 神 内 耗 》 当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。 阅读全文 →" [ref=f8e57] [cursor=pointer]':
+            - generic [ref=f8e58]: "2025.02.18 · 14 MIN READ · #随想"
+            - heading "《 函 数 式 编 程 治 好 了 我 的 精 神 内 耗 》" [level=2] [ref=f8e59]:
+              - generic [ref=f8e60]: 《
+              - generic [ref=f8e61]: 函
+              - generic [ref=f8e62]: 数
+              - generic [ref=f8e63]: 式
+              - generic [ref=f8e64]: 编
+              - generic [ref=f8e65]: 程
+              - generic [ref=f8e66]: 治
+              - generic [ref=f8e67]: 好
+              - generic [ref=f8e68]: 了
+              - generic [ref=f8e69]: 我
+              - generic [ref=f8e70]: 的
+              - generic [ref=f8e71]: 精
+              - generic [ref=f8e72]: 神
+              - generic [ref=f8e73]: 内
+              - generic [ref=f8e74]: 耗
+              - generic [ref=f8e75]: 》
+            - paragraph [ref=f8e76]: 当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。
+            - generic [ref=f8e77]:
+              - text: 阅读全文
+              - generic [ref=f8e78]: →
+        - generic [ref=f8e80]:
+          - generic [ref=f8e81]:
+            - generic [ref=f8e82]: 03 —
+            - generic [ref=f8e85]:
+              - heading "全部刊文" [level=2] [ref=f8e86]
+              - paragraph [ref=f8e87]: 8 ESSAYS — 索引
+          - generic [ref=f8e88]:
+            - button [ref=f8e89] [cursor=pointer]:
+              - img "函数式编程治好了我的精神内耗" [ref=f8e91]
+              - generic [ref=f8e93]:
+                - paragraph [ref=f8e94]: "2025.02.18 · #随想"
+                - heading "《函数式编程治好了我的精神内耗》" [level=3] [ref=f8e95]
+                - paragraph [ref=f8e96]: 当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。
+                - paragraph [ref=f8e97]: 14 MIN READ
+            - button [ref=f8e98] [cursor=pointer]:
+              - img "我用 Rust 重写了公司的构建脚本" [ref=f8e100]
+              - generic [ref=f8e102]:
+                - paragraph [ref=f8e103]: "2025.01.06 · #工程实践"
+                - heading "《我用 Rust 重写了公司的构建脚本》" [level=3] [ref=f8e104]
+                - paragraph [ref=f8e105]: 一段 900 行的 Bash 被 300 行 Rust 替代，构建时间从 11 分钟掉到 3 分钟。这不是炫技，是工程债清偿。
+                - paragraph [ref=f8e106]: 8 MIN READ
+            - button [active] [ref=f8e107] [cursor=pointer]:
+              - img "PostgreSQL 索引：一本被翻烂的书" [ref=f8e109]
+              - generic [ref=f8e111]:
+                - paragraph [ref=f8e112]: "2024.11.02 · #工程实践"
+                - heading "《PostgreSQL 索引：一本被翻烂的书》" [level=3] [ref=f8e113]
+                - paragraph [ref=f8e114]: B+ 树、位图扫描、覆盖索引、部分索引——用一张表把索引讲成图书馆的检索系统。
+                - paragraph [ref=f8e115]: 10 MIN READ
+            - button [ref=f8e116] [cursor=pointer]:
+              - img "Web 中文排版的 100 个细节" [ref=f8e118]
+              - generic [ref=f8e120]:
+                - paragraph [ref=f8e121]: "2024.09.15 · #语言与工具"
+                - heading "《Web 中文排版的 100 个细节》" [level=3] [ref=f8e122]
+                - paragraph [ref=f8e123]: 标点悬挂、孤行控制、中文引号、竖排注释……中文排版在 Web 上欠了太多债，这是还债清单的第一页。
+                - paragraph [ref=f8e124]: 12 MIN READ
+            - button [ref=f8e125] [cursor=pointer]:
+              - img "从 Vim 到 Neovim：一个配置即代码的故事" [ref=f8e127]
+              - generic [ref=f8e129]:
+                - paragraph [ref=f8e130]: "2024.06.20 · #语言与工具"
+                - heading "《从 Vim 到 Neovim：一个配置即代码的故事》" [level=3] [ref=f8e131]
+                - paragraph [ref=f8e132]: 我的 .config 是我的第二大脑。这份配置随我搬了五次家（机器），每次重建都不超过二十分钟。
+                - paragraph [ref=f8e133]: 9 MIN READ
+            - button [ref=f8e134] [cursor=pointer]:
+              - img "重构一次失败的重构" [ref=f8e136]
+              - generic [ref=f8e138]:
+                - paragraph [ref=f8e139]: "2024.03.11 · #随想"
+                - heading "《重构一次失败的重构》" [level=3] [ref=f8e140]
+                - paragraph [ref=f8e141]: 我们重构了三次，前两次都失败了。失败的原因不是技术，而是我们没有定义“重构成功”的标准。
+                - paragraph [ref=f8e142]: 7 MIN READ
+            - button [ref=f8e143] [cursor=pointer]:
+              - img "CRDT 入门：让协作编辑不再神秘（译）" [ref=f8e145]
+              - generic [ref=f8e147]:
+                - paragraph [ref=f8e148]: "2023.12.05 · #翻译"
+                - heading "《CRDT 入门：让协作编辑不再神秘（译）》" [level=3] [ref=f8e149]
+                - paragraph [ref=f8e150]: 无冲突复制数据类型，是多人实时协作的基石。这篇译文带你从“听过”到“会写一个”。
+                - paragraph [ref=f8e151]: 11 MIN READ
+            - button [ref=f8e152] [cursor=pointer]:
+              - img "我的 2023 开发环境全公开" [ref=f8e154]
+              - generic [ref=f8e156]:
+                - paragraph [ref=f8e157]: "2023.08.19 · #语言与工具"
+                - heading "《我的 2023 开发环境全公开》" [level=3] [ref=f8e158]
+                - paragraph [ref=f8e159]: 终端、编辑器、窗口管理、快捷键一图流。工具不该是负担，配置不该是玄学。
+                - paragraph [ref=f8e160]: 6 MIN READ
+        - generic [ref=f8e162]:
+          - generic [ref=f8e163]:
+            - paragraph [ref=f8e164]: SUBSCRIBE / 订阅本刊
+            - heading "每 月 一 封 ， 只 有 干 货 。" [level=2] [ref=f8e165]:
+              - generic [ref=f8e166]: 每
+              - generic [ref=f8e167]: 月
+              - generic [ref=f8e168]: 一
+              - generic [ref=f8e169]: 封
+              - generic [ref=f8e170]: ，
+              - generic [ref=f8e171]: 只
+              - generic [ref=f8e172]: 有
+              - generic [ref=f8e173]: 干
+              - generic [ref=f8e174]: 货
+              - generic [ref=f8e175]: 。
+          - generic [ref=f8e176]:
+            - textbox "you@example.com" [ref=f8e177]
+            - button "订阅" [ref=f8e178] [cursor=pointer]
+    - contentinfo [ref=f8e180]:
+      - generic [ref=f8e183]:
+        - generic [ref=f8e184]:
+          - generic [ref=f8e185]: Keep Shipping — 持续交付
+          - generic [ref=f8e186]: Stay Curious — 保持好奇
+          - generic [ref=f8e187]: In Code We Trust — 相信代码
+          - generic [ref=f8e188]: Ship It — 先交付再说
+        - generic [ref=f8e189]:
+          - generic [ref=f8e190]: Keep Shipping — 持续交付
+          - generic [ref=f8e191]: Stay Curious — 保持好奇
+          - generic [ref=f8e192]: In Code We Trust — 相信代码
+          - generic [ref=f8e193]: Ship It — 先交付再说
+      - generic [ref=f8e194]:
+        - generic [ref=f8e195]:
+          - paragraph [ref=f8e196]: Sitemap / 站点地图
+          - list [ref=f8e197]:
+            - listitem [ref=f8e198]:
+              - link "首页HOME" [ref=f8e199] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f8e200]:
+              - link "作品WORKS" [ref=f8e201] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=f8e202]:
+              - link "经历PROFILE" [ref=f8e203] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f8e204]:
+              - link "写作WRITING" [ref=f8e205] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f8e206]:
+              - link "联系CONTACT" [ref=f8e207] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=f8e208]:
+          - paragraph [ref=f8e209]: Elsewhere / 其它角落
+          - list [ref=f8e210]:
+            - listitem [ref=f8e211]:
+              - link "GitHub ↗" [ref=f8e212] [cursor=pointer]:
+                - /url: https://github.com/chenweiyuan
+                - text: GitHub
+                - generic [ref=f8e215]: ↗
+            - listitem [ref=f8e216]:
+              - link "掘金 ↗" [ref=f8e217] [cursor=pointer]:
+                - /url: https://juejin.cn/user/chenweiyuan
+                - text: 掘金
+                - generic [ref=f8e218]: ↗
+            - listitem [ref=f8e219]:
+              - link "X / Twitter ↗" [ref=f8e220] [cursor=pointer]:
+                - /url: https://x.com/chenweiyuan
+                - text: X / Twitter
+                - generic [ref=f8e223]: ↗
+            - listitem [ref=f8e224]:
+              - link "RSS ↗" [ref=f8e225] [cursor=pointer]:
+                - /url: /chenweiyuan.dev/feed.xml
+                - text: RSS
+                - generic [ref=f8e230]: ↗
+        - generic [ref=f8e231]:
+          - paragraph [ref=f8e232]: Colophon / 版权
+          - paragraph [ref=f8e233]: © 2025 陈未远 (Chen Weiyuan)
+          - paragraph [ref=f8e234]: Designed & Built by Chen Weiyuan, 2025本刊为虚构占位内容，图片素材已做版权水印清理。
+          - button "回到顶部" [ref=f8e235] [cursor=pointer]
+      - paragraph [ref=f8e239]: Weiyuan.Chen
+  - generic [ref=f8e243]:
+    - button "关闭" [ref=f8e246] [cursor=pointer]:
+      - generic [ref=f8e247]: ✕
+    - generic [ref=f8e248]:
+      - generic [ref=f8e249]:
+        - paragraph [ref=f8e250]: 工程实践 — 2024.11.02
+        - heading "P o s t g r e S Q L 索 引 ： 一 本 被 翻 烂 的 书" [level=1] [ref=f8e251]:
+          - generic [ref=f8e252]: P
+          - generic [ref=f8e253]: o
+          - generic [ref=f8e254]: s
+          - generic [ref=f8e255]: t
+          - generic [ref=f8e256]: g
+          - generic [ref=f8e257]: r
+          - generic [ref=f8e258]: e
+          - generic [ref=f8e259]: S
+          - generic [ref=f8e260]: Q
+          - generic [ref=f8e261]: L
+          - generic [ref=f8e262]: 索
+          - generic [ref=f8e263]: 引
+          - generic [ref=f8e264]: ：
+          - generic [ref=f8e265]: 一
+          - generic [ref=f8e266]: 本
+          - generic [ref=f8e267]: 被
+          - generic [ref=f8e268]: 翻
+          - generic [ref=f8e269]: 烂
+          - generic [ref=f8e270]: 的
+          - generic [ref=f8e271]: 书
+        - paragraph [ref=f8e272]: WORDS 117 / 10 MIN READ / 陈未远 著
+      - img "PostgreSQL 索引：一本被翻烂的书" [ref=f8e275]
+      - generic [ref=f8e276]:
+        - generic [ref=f8e277]:
+          - heading "§ 索引是目录，不是藏书" [level=2] [ref=f8e278]
+          - paragraph [ref=f8e279]: 索引不存数据，它只告诉你数据在哪一页。理解这一点，就理解了为什么“别在低基数列上建索引”。
+        - generic [ref=f8e280]:
+          - heading "§ EXPLAIN 是你的朋友" [level=2] [ref=f8e281]
+          - paragraph [ref=f8e282]: 每次 DBA 发来 EXPLAIN，都是一次阅读理解考试。把 Seq Scan 读作“全馆翻书”，把 Index Scan 读作“翻目录取书”。
+      - generic [ref=f8e284]:
+        - img "陈未远" [ref=f8e285]
+        - generic [ref=f8e286]:
+          - paragraph [ref=f8e287]: 陈未远 — 全栈工程师，本刊唯一撰稿人
+          - paragraph [ref=f8e288]: WRITES CODE · WRITES WORDS · chenweiyuan.dev
+      - generic [ref=f8e289]:
+        - button "← 上一篇 《我用 Rust 重写了公司的构建脚本》" [ref=f8e290] [cursor=pointer]:
+          - text: ← 上一篇
+          - generic [ref=f8e291]: 《我用 Rust 重写了公司的构建脚本》
+        - button "下一篇 → 《Web 中文排版的 100 个细节》" [ref=f8e292] [cursor=pointer]:
+          - text: 下一篇 →
+          - generic [ref=f8e293]: 《Web 中文排版的 100 个细节》
+      - generic [ref=f8e296]:
+        - paragraph [ref=f8e297]: 订阅更新
+        - textbox "you@example.com" [ref=f8e298]
+        - button "订阅" [ref=f8e299] [cursor=pointer]

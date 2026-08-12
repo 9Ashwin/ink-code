@@ -1,0 +1,396 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "C.W.Y — INK & CODE® VOL.01 — 2025" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]:
+          - text: C.W.Y — INK & CODE
+          - superscript [ref=e8]: ®
+        - generic [ref=e9]: VOL.01 — 2025
+      - navigation "主导航" [ref=e10]:
+        - link "HOME" [ref=e11] [cursor=pointer]:
+          - /url: /
+        - link "WORKS" [ref=e12] [cursor=pointer]:
+          - /url: /projects
+        - link "PROFILE" [ref=e13] [cursor=pointer]:
+          - /url: /about
+        - link "WRITING" [ref=e14] [cursor=pointer]:
+          - /url: /blog
+        - link "CONTACT" [ref=e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e16]:
+        - link "GitHub" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/chenweiyuan
+        - link "邮箱" [ref=e20] [cursor=pointer]:
+          - /url: mailto:hi@chenweiyuan.dev
+        - generic [ref=e24]: Open to Work
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: INK & CODE — VOL.01
+      - generic [ref=e35]:
+        - generic [ref=e36]: Vol.01 / 2025 春 · 总第 001 期
+        - generic [ref=e37]: 2026.08.12 WED
+        - generic [ref=e38]: Open to Work
+      - generic [ref=e42]:
+        - generic: Engineer
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Issue 001 — Portfolio
+            - heading "陈 未 远 C h e n W e i y u a n" [level=1] [ref=e46]:
+              - generic [ref=e47]:
+                - generic [ref=e48]: 陈
+                - generic [ref=e49]: 未
+                - generic [ref=e50]: 远
+              - generic [ref=e51]:
+                - generic [ref=e52]: C
+                - generic [ref=e53]: h
+                - generic [ref=e54]: e
+                - generic [ref=e55]: "n"
+              - generic [ref=e56]:
+                - generic [ref=e57]: W
+                - generic [ref=e58]: e
+                - generic [ref=e59]: i
+                - generic [ref=e60]: "y"
+                - generic [ref=e61]: u
+                - generic [ref=e62]: a
+                - generic [ref=e63]: "n"
+            - paragraph [ref=e64]: FULL-STACK ENGINEER — 全栈工程师 / 写代码，也写杂志般的代码注释。
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - img "陈未远 肖像" [ref=e68]
+                - paragraph [ref=e69]: fig.01 — 本刊主角，摄于工位
+              - generic [ref=e71]: EST. 2019 / 从业六年
+            - paragraph [ref=e73]: "TODO: ship something great →"
+            - paragraph [ref=e74]: based in Shanghai / UTC+8
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - text: TYPESCRIPT
+              - generic [ref=e80]: ●
+            - generic [ref=e81]:
+              - text: REACT
+              - generic [ref=e82]: ●
+            - generic [ref=e83]:
+              - text: NODE.JS
+              - generic [ref=e84]: ●
+            - generic [ref=e85]:
+              - text: RUST
+              - generic [ref=e86]: ●
+            - generic [ref=e87]:
+              - text: 开源贡献者
+              - generic [ref=e88]: ●
+            - generic [ref=e89]:
+              - text: OPEN SOURCE
+              - generic [ref=e90]: ●
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - text: TYPESCRIPT
+              - generic [ref=e93]: ●
+            - generic [ref=e94]:
+              - text: REACT
+              - generic [ref=e95]: ●
+            - generic [ref=e96]:
+              - text: NODE.JS
+              - generic [ref=e97]: ●
+            - generic [ref=e98]:
+              - text: RUST
+              - generic [ref=e99]: ●
+            - generic [ref=e100]:
+              - text: 开源贡献者
+              - generic [ref=e101]: ●
+            - generic [ref=e102]:
+              - text: OPEN SOURCE
+              - generic [ref=e103]: ●
+      - generic [ref=e105]:
+        - link "01 精选作品 WORKS →" [ref=e106] [cursor=pointer]:
+          - /url: "#featured"
+          - generic [ref=e107]: "01"
+          - generic [ref=e108]: 精选作品
+          - generic [ref=e109]: WORKS →
+        - link "02 技术栈 STACK →" [ref=e110] [cursor=pointer]:
+          - /url: "#stack"
+          - generic [ref=e111]: "02"
+          - generic [ref=e112]: 技术栈
+          - generic [ref=e113]: STACK →
+        - link "03 职业经历 CAREER →" [ref=e114] [cursor=pointer]:
+          - /url: "#career"
+          - generic [ref=e115]: "03"
+          - generic [ref=e116]: 职业经历
+          - generic [ref=e117]: CAREER →
+        - link "04 写作 WRITING →" [ref=e118] [cursor=pointer]:
+          - /url: "#writing"
+          - generic [ref=e119]: "04"
+          - generic [ref=e120]: 写作
+          - generic [ref=e121]: WRITING →
+        - link "05 联系 CONTACT →" [ref=e122] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=e123]: "05"
+          - generic [ref=e124]: 联系
+          - generic [ref=e125]: CONTACT →
+      - generic [ref=e126]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: 02 —
+          - generic [ref=e132]:
+            - heading "精选作品" [level=2] [ref=e133]
+            - paragraph [ref=e134]: SCROLL → 横向翻阅
+        - generic [ref=e137]:
+          - 'link "01 DevFlow 流水线 DevFlow 流水线 VISUAL CI/CD ORCHESTRATOR TypeScript React Node.js CI/CD 可视化编排平台，让每一次部署都像翻杂志一样顺滑。 ROLE: LEAD DEV" [ref=e138] [cursor=pointer]':
+            - /url: /projects
+            - generic [ref=e139]:
+              - generic [ref=e140]: "01"
+              - img "DevFlow 流水线" [ref=e142]
+            - generic [ref=e144]:
+              - heading "DevFlow 流水线" [level=3] [ref=e145]
+              - paragraph [ref=e146]: VISUAL CI/CD ORCHESTRATOR
+              - generic [ref=e147]:
+                - generic [ref=e148]: TypeScript
+                - generic [ref=e149]: React
+                - generic [ref=e150]: Node.js
+              - generic [ref=e151]:
+                - paragraph [ref=e152]: CI/CD 可视化编排平台，让每一次部署都像翻杂志一样顺滑。
+                - generic [ref=e153]: "ROLE: LEAD DEV"
+          - 'link "02 Atlas 图谱引擎 Atlas 图谱引擎 REAL-TIME KNOWLEDGE GRAPH Rust WASM WebGL 实时协作知识图谱，十万节点，六十帧。 ROLE: CORE DEV" [ref=e154] [cursor=pointer]':
+            - /url: /projects
+            - generic [ref=e155]:
+              - generic [ref=e156]: "02"
+              - img "Atlas 图谱引擎" [ref=e158]
+            - generic [ref=e160]:
+              - heading "Atlas 图谱引擎" [level=3] [ref=e161]
+              - paragraph [ref=e162]: REAL-TIME KNOWLEDGE GRAPH
+              - generic [ref=e163]:
+                - generic [ref=e164]: Rust
+                - generic [ref=e165]: WASM
+                - generic [ref=e166]: WebGL
+              - generic [ref=e167]:
+                - paragraph [ref=e168]: 实时协作知识图谱，十万节点，六十帧。
+                - generic [ref=e169]: "ROLE: CORE DEV"
+          - 'link "03 Pulse 健康监控 Pulse 健康监控 MOBILE OBSERVABILITY APP React Native Go 把告警做成晨报的移动端全栈监控 App。 ROLE: FULL-STACK" [ref=e170] [cursor=pointer]':
+            - /url: /projects
+            - generic [ref=e171]:
+              - generic [ref=e172]: "03"
+              - img "Pulse 健康监控" [ref=e174]
+            - generic [ref=e176]:
+              - heading "Pulse 健康监控" [level=3] [ref=e177]
+              - paragraph [ref=e178]: MOBILE OBSERVABILITY APP
+              - generic [ref=e179]:
+                - generic [ref=e180]: React Native
+                - generic [ref=e181]: Go
+              - generic [ref=e182]:
+                - paragraph [ref=e183]: 把告警做成晨报的移动端全栈监控 App。
+                - generic [ref=e184]: "ROLE: FULL-STACK"
+          - 'link "04 TinyCC 编译器 TinyCC 编译器 C SUBSET TO LLVM Rust LLVM 从零到 hello world，只用 4000 行。 ROLE: SOLO DEV" [ref=e185] [cursor=pointer]':
+            - /url: /projects
+            - generic [ref=e186]:
+              - generic [ref=e187]: "04"
+              - img "TinyCC 编译器" [ref=e189]
+            - generic [ref=e191]:
+              - heading "TinyCC 编译器" [level=3] [ref=e192]
+              - paragraph [ref=e193]: C SUBSET TO LLVM
+              - generic [ref=e194]:
+                - generic [ref=e195]: Rust
+                - generic [ref=e196]: LLVM
+              - generic [ref=e197]:
+                - paragraph [ref=e198]: 从零到 hello world，只用 4000 行。
+                - generic [ref=e199]: "ROLE: SOLO DEV"
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic [ref=e204]: 03 —
+            - generic [ref=e207]:
+              - heading "每天都在用的工具" [level=2] [ref=e208]
+              - paragraph [ref=e209]: ARSENAL
+          - generic [ref=e210]: Arsenal
+        - generic [ref=e211]:
+          - generic [ref=e212]:
+            - paragraph [ref=e213]: FRONTEND
+            - generic [ref=e214]:
+              - generic [ref=e215]: TypeScript
+              - generic [ref=e216]: React
+              - generic [ref=e217]: Next.js
+              - generic [ref=e218]: Vue
+          - generic [ref=e219]:
+            - paragraph [ref=e220]: BACKEND
+            - generic [ref=e221]:
+              - generic [ref=e222]: Node.js
+              - generic [ref=e223]: Go
+              - generic [ref=e224]: Rust
+              - generic [ref=e225]: PostgreSQL
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: INFRA
+            - generic [ref=e228]:
+              - generic [ref=e229]: Docker
+              - generic [ref=e230]: K8s
+              - generic [ref=e231]: AWS
+              - generic [ref=e232]: Terraform
+          - generic [ref=e233]:
+            - paragraph [ref=e234]: CRAFT
+            - generic [ref=e235]:
+              - generic [ref=e236]: Git
+              - generic [ref=e237]: Vim
+              - generic [ref=e238]: Figma
+              - generic [ref=e239]: 写作
+      - generic [ref=e242]:
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - generic [ref=e245]: 04 —
+            - heading "履历节选" [level=2] [ref=e249]
+          - link "完整简历 →" [ref=e250] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e251]:
+          - link "2022 — 现在 星舟科技 · 高级前端工程师 主导设计中台前端微前端架构，统一 200+ 内部产品的技术栈与组件库。 →" [ref=e252] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=e253]: 2022 — 现在
+            - generic [ref=e254]:
+              - text: 星舟科技
+              - generic [ref=e255]: · 高级前端工程师
+            - generic [ref=e256]: 主导设计中台前端微前端架构，统一 200+ 内部产品的技术栈与组件库。
+            - generic [ref=e257]: →
+          - link "2020 — 2022 云脉网络 · 全栈工程师 从零设计并实现实时协作编辑后端（CRDT），支撑产品从 0 到 10 万 DAU。 →" [ref=e258] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=e259]: 2020 — 2022
+            - generic [ref=e260]:
+              - text: 云脉网络
+              - generic [ref=e261]: · 全栈工程师
+            - generic [ref=e262]: 从零设计并实现实时协作编辑后端（CRDT），支撑产品从 0 到 10 万 DAU。
+            - generic [ref=e263]: →
+          - link "2019 — 2020 独立开发 & 开源 · Indie Hacker 发布三款开发者工具（Typo / Dotfiles / Gridbot），累计获得 4.2k Stars。 →" [ref=e264] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=e265]: 2019 — 2020
+            - generic [ref=e266]:
+              - text: 独立开发 & 开源
+              - generic [ref=e267]: · Indie Hacker
+            - generic [ref=e268]: 发布三款开发者工具（Typo / Dotfiles / Gridbot），累计获得 4.2k Stars。
+            - generic [ref=e269]: →
+      - generic [ref=e271]:
+        - img "工作台俯拍" [ref=e273]
+        - generic [ref=e275]:
+          - paragraph [ref=e276]: Editor's Note / 卷首语
+          - paragraph [ref=e277]:
+            - generic [ref=e278]: 「好的工程和好的杂志一样——结构清晰、细节讲究、读起来有节奏。
+          - paragraph [ref=e279]: — 陈未远 / 本刊唯一撰稿人
+          - link [ref=e281] [cursor=pointer]:
+            - /url: /about
+            - button "认识这位工程师 →" [ref=e282]
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]: 05 —
+            - heading "最新刊文" [level=2] [ref=e293]
+          - link "全部文章 →" [ref=e294] [cursor=pointer]:
+            - /url: /blog
+        - generic [ref=e295]:
+          - 'link "函数式编程治好了我的精神内耗 Editor''s Pick 《 函 数 式 编 程 治 好 了 我 的 精 神 内 耗 》 当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。 2025.02.18 · 14 MIN READ · #随想" [ref=e296] [cursor=pointer]':
+            - /url: /blog
+            - img "函数式编程治好了我的精神内耗" [ref=e298]
+            - generic [ref=e300]: Editor's Pick
+            - heading "《 函 数 式 编 程 治 好 了 我 的 精 神 内 耗 》" [level=3] [ref=e301]:
+              - generic [ref=e302]: 《
+              - generic [ref=e303]: 函
+              - generic [ref=e304]: 数
+              - generic [ref=e305]: 式
+              - generic [ref=e306]: 编
+              - generic [ref=e307]: 程
+              - generic [ref=e308]: 治
+              - generic [ref=e309]: 好
+              - generic [ref=e310]: 了
+              - generic [ref=e311]: 我
+              - generic [ref=e312]: 的
+              - generic [ref=e313]: 精
+              - generic [ref=e314]: 神
+              - generic [ref=e315]: 内
+              - generic [ref=e316]: 耗
+              - generic [ref=e317]: 》
+            - paragraph [ref=e318]: 当我不再试图控制每一个状态，而是描述状态之间的流转，焦虑就转移给了类型系统——它比我更有耐心。
+            - paragraph [ref=e319]: "2025.02.18 · 14 MIN READ · #随想"
+          - generic [ref=e320]:
+            - link [ref=e321] [cursor=pointer]:
+              - /url: /blog
+              - img "我用 Rust 重写了公司的构建脚本" [ref=e322]
+              - generic [ref=e323]:
+                - heading "《我用 Rust 重写了公司的构建脚本》" [level=4] [ref=e324]
+                - paragraph [ref=e325]: 2025.01.06 · 8 MIN READ
+            - link [ref=e326] [cursor=pointer]:
+              - /url: /blog
+              - img "PostgreSQL 索引：一本被翻烂的书" [ref=e327]
+              - generic [ref=e328]:
+                - heading "《PostgreSQL 索引：一本被翻烂的书》" [level=4] [ref=e329]
+                - paragraph [ref=e330]: 2024.11.02 · 10 MIN READ
+      - generic [ref=e332]:
+        - heading "有 项 目 想 聊 聊 ？" [level=2] [ref=e333]:
+          - generic [ref=e334]: 有
+          - generic [ref=e335]: 项
+          - generic [ref=e336]: 目
+          - generic [ref=e337]: 想
+          - generic [ref=e338]: 聊
+          - generic [ref=e339]: 聊
+          - generic [ref=e340]: ？
+        - link "Let's Talk →" [ref=e341] [cursor=pointer]:
+          - /url: /contact
+          - text: Let's Talk
+          - generic [ref=e342]: →
+        - button "hi@chenweiyuan.dev — 通常在 24 小时内回信 · 接受远程协作" [ref=e343] [cursor=pointer]
+        - generic [ref=e344]:
+          - generic [ref=e345]: No Boring Projects / 有趣优先
+          - generic [ref=e346]: 回复率 98%
+          - generic [ref=e347]: GMT+8 在线
+  - contentinfo [ref=e348]:
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - generic [ref=e353]: Keep Shipping — 持续交付
+        - generic [ref=e354]: Stay Curious — 保持好奇
+        - generic [ref=e355]: In Code We Trust — 相信代码
+        - generic [ref=e356]: Ship It — 先交付再说
+      - generic [ref=e357]:
+        - generic [ref=e358]: Keep Shipping — 持续交付
+        - generic [ref=e359]: Stay Curious — 保持好奇
+        - generic [ref=e360]: In Code We Trust — 相信代码
+        - generic [ref=e361]: Ship It — 先交付再说
+    - generic [ref=e362]:
+      - generic [ref=e363]:
+        - paragraph [ref=e364]: Sitemap / 站点地图
+        - list [ref=e365]:
+          - listitem [ref=e366]:
+            - link "首页HOME" [ref=e367] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e368]:
+            - link "作品WORKS" [ref=e369] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=e370]:
+            - link "经历PROFILE" [ref=e371] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e372]:
+            - link "写作WRITING" [ref=e373] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e374]:
+            - link "联系CONTACT" [ref=e375] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e376]:
+        - paragraph [ref=e377]: Elsewhere / 其它角落
+        - list [ref=e378]:
+          - listitem [ref=e379]:
+            - link "GitHub ↗" [ref=e380] [cursor=pointer]:
+              - /url: https://github.com/chenweiyuan
+              - text: GitHub
+              - generic [ref=e383]: ↗
+          - listitem [ref=e384]:
+            - link "掘金 ↗" [ref=e385] [cursor=pointer]:
+              - /url: https://juejin.cn/user/chenweiyuan
+              - text: 掘金
+              - generic [ref=e386]: ↗
+          - listitem [ref=e387]:
+            - link "X / Twitter ↗" [ref=e388] [cursor=pointer]:
+              - /url: https://x.com/chenweiyuan
+              - text: X / Twitter
+              - generic [ref=e391]: ↗
+          - listitem [ref=e392]:
+            - link "RSS ↗" [ref=e393] [cursor=pointer]:
+              - /url: /chenweiyuan.dev/feed.xml
+              - text: RSS
+              - generic [ref=e398]: ↗
+      - generic [ref=e399]:
+        - paragraph [ref=e400]: Colophon / 版权
+        - paragraph [ref=e401]: © 2025 陈未远 (Chen Weiyuan)
+        - paragraph [ref=e402]: Designed & Built by Chen Weiyuan, 2025本刊为虚构占位内容，图片素材已做版权水印清理。
+        - button "回到顶部" [ref=e403] [cursor=pointer]
+    - paragraph [ref=e407]: Weiyuan.Chen

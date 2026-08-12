@@ -108,7 +108,7 @@ function Hero() {
           <p className="font-mono2 text-xs uppercase tracking-[0.2em] text-signal" data-hero-tag>
             Issue 001 — Portfolio
           </p>
-          <h1 className="mt-6 leading-[0.95]">
+          <h1 className="mt-6 leading-[0.95]" data-hero-name>
             <div className="font-serifcn text-[clamp(72px,10vw,150px)] font-black text-ink" data-hero-line>陈未远</div>
             <div className="font-display text-outline text-[clamp(72px,10vw,150px)] uppercase leading-[1.05]" data-hero-line>Chen</div>
             <div className="font-display text-[clamp(72px,10vw,150px)] uppercase leading-[1.05] text-ink" data-hero-line>
@@ -128,7 +128,9 @@ function Hero() {
               <p className="mt-2 font-mono2 text-[10px] uppercase tracking-[0.14em] text-ink-soft">fig.01 — 本刊主角，摄于工位</p>
             </div>
             <span className="tape absolute -left-3 -top-2 h-6 w-20 -rotate-6" aria-hidden="true" />
-            <Stamp className="absolute -bottom-4 -right-3 !px-4 !py-2" rotate={-8}>EST. 2019 / 从业六年</Stamp>
+            <span data-hero-stamp className="absolute -bottom-4 -right-3">
+              <Stamp className="!px-4 !py-2" rotate={-8}>EST. 2019 / 从业六年</Stamp>
+            </span>
           </div>
           {/* 便签 */}
           <div data-hero-note className="absolute -left-6 top-10 hidden rotate-3 bg-paper-dark p-3 shadow-brutal-sm md:block">
