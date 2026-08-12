@@ -1,0 +1,242 @@
+- generic [ref=f8e3]:
+  - banner [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - link "C.W.Y — INK & CODE® VOL.01 — 2025" [ref=f8e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f8e7]:
+          - text: C.W.Y — INK & CODE
+          - superscript [ref=f8e8]: ®
+        - generic [ref=f8e9]: VOL.01 — 2025
+      - navigation "主导航" [ref=f8e10]:
+        - link "HOME" [ref=f8e11] [cursor=pointer]:
+          - /url: /
+        - link "WORKS" [ref=f8e12] [cursor=pointer]:
+          - /url: /projects
+        - link "PROFILE" [ref=f8e13] [cursor=pointer]:
+          - /url: /about
+        - link "WRITING" [ref=f8e14] [cursor=pointer]:
+          - /url: /blog
+        - link "CONTACT" [ref=f8e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f8e16]:
+        - link "GitHub" [ref=f8e17] [cursor=pointer]:
+          - /url: https://github.com/chenweiyuan
+        - link "邮箱" [ref=f8e20] [cursor=pointer]:
+          - /url: mailto:hi@chenweiyuan.dev
+        - generic [ref=f8e24]: Open to Work
+  - main [ref=f8e29]:
+    - generic [ref=f8e31]:
+      - generic [ref=f8e33]:
+        - paragraph [ref=f8e34]: VOL.02 — WORKS / 作品特辑
+        - heading "作 品 索 引" [level=1] [ref=f8e35]:
+          - generic [ref=f8e36]:
+            - generic [ref=f8e37]: 作
+            - generic [ref=f8e38]: 品
+            - generic [ref=f8e39]: 索
+            - generic [ref=f8e40]: 引
+        - generic [ref=f8e41]: Selected Works 2019—2025
+        - paragraph [ref=f8e43]: 共 08 篇报道
+      - generic [ref=f8e45]:
+        - button "全部 08" [ref=f8e46] [cursor=pointer]
+        - button "WEB 应用 01" [ref=f8e47] [cursor=pointer]
+        - button "开源工具 05" [ref=f8e48] [cursor=pointer]
+        - button "移动端 01" [ref=f8e49] [cursor=pointer]
+        - button "图形与可视化 01" [ref=f8e50] [cursor=pointer]
+      - generic [ref=f8e52]:
+        - generic [ref=f8e53]:
+          - button "01 DevFlow 流水线 VISUAL CI/CD ORCHESTRATOR TypeScript React Node.js 2024" [ref=f8e56] [cursor=pointer]:
+            - generic [ref=f8e57]:
+              - generic [ref=f8e58]:
+                - generic [ref=f8e59]: "01"
+                - generic [ref=f8e60]: "01"
+                - generic [ref=f8e61]: "01"
+              - generic [ref=f8e62]:
+                - heading "DevFlow 流水线" [level=3] [ref=f8e63]
+                - paragraph [ref=f8e64]: VISUAL CI/CD ORCHESTRATOR
+              - generic [ref=f8e65]:
+                - generic [ref=f8e66]:
+                  - generic [ref=f8e67]: TypeScript
+                  - generic [ref=f8e68]: React
+                  - generic [ref=f8e69]: Node.js
+                - generic [ref=f8e70]: "2024"
+          - button "02 Atlas 图谱引擎 REAL-TIME KNOWLEDGE GRAPH Rust WASM WebGL 2024" [ref=f8e74] [cursor=pointer]:
+            - generic [ref=f8e75]:
+              - generic [ref=f8e76]:
+                - generic [ref=f8e77]: "02"
+                - generic [ref=f8e78]: "02"
+                - generic [ref=f8e79]: "02"
+              - generic [ref=f8e80]:
+                - heading "Atlas 图谱引擎" [level=3] [ref=f8e81]
+                - paragraph [ref=f8e82]: REAL-TIME KNOWLEDGE GRAPH
+              - generic [ref=f8e83]:
+                - generic [ref=f8e84]:
+                  - generic [ref=f8e85]: Rust
+                  - generic [ref=f8e86]: WASM
+                  - generic [ref=f8e87]: WebGL
+                - generic [ref=f8e88]: "2024"
+          - button "03 Pulse 健康监控 MOBILE OBSERVABILITY APP React Native Go 2023" [ref=f8e92] [cursor=pointer]:
+            - generic [ref=f8e93]:
+              - generic [ref=f8e94]:
+                - generic [ref=f8e95]: "03"
+                - generic [ref=f8e96]: "03"
+                - generic [ref=f8e97]: "03"
+              - generic [ref=f8e98]:
+                - heading "Pulse 健康监控" [level=3] [ref=f8e99]
+                - paragraph [ref=f8e100]: MOBILE OBSERVABILITY APP
+              - generic [ref=f8e101]:
+                - generic [ref=f8e102]:
+                  - generic [ref=f8e103]: React Native
+                  - generic [ref=f8e104]: Go
+                - generic [ref=f8e105]: "2023"
+          - button "04 TinyCC 编译器 C SUBSET TO LLVM Rust LLVM 2023" [ref=f8e109] [cursor=pointer]:
+            - generic [ref=f8e110]:
+              - generic [ref=f8e111]:
+                - generic [ref=f8e112]: "04"
+                - generic [ref=f8e113]: "04"
+                - generic [ref=f8e114]: "04"
+              - generic [ref=f8e115]:
+                - heading "TinyCC 编译器" [level=3] [ref=f8e116]
+                - paragraph [ref=f8e117]: C SUBSET TO LLVM
+              - generic [ref=f8e118]:
+                - generic [ref=f8e119]:
+                  - generic [ref=f8e120]: Rust
+                  - generic [ref=f8e121]: LLVM
+                - generic [ref=f8e122]: "2023"
+          - button "05 Markdown Garden LOCAL-FIRST NOTES Tauri Svelte 2022" [ref=f8e126] [cursor=pointer]:
+            - generic [ref=f8e127]:
+              - generic [ref=f8e128]:
+                - generic [ref=f8e129]: "05"
+                - generic [ref=f8e130]: "05"
+                - generic [ref=f8e131]: "05"
+              - generic [ref=f8e132]:
+                - heading "Markdown Garden" [level=3] [ref=f8e133]
+                - paragraph [ref=f8e134]: LOCAL-FIRST NOTES
+              - generic [ref=f8e135]:
+                - generic [ref=f8e136]:
+                  - generic [ref=f8e137]: Tauri
+                  - generic [ref=f8e138]: Svelte
+                - generic [ref=f8e139]: "2022"
+          - button "06 Gridbot GRID TRADING BACKTEST Python Pandas 2022" [ref=f8e143] [cursor=pointer]:
+            - generic [ref=f8e144]:
+              - generic [ref=f8e145]:
+                - generic [ref=f8e146]: "06"
+                - generic [ref=f8e147]: "06"
+                - generic [ref=f8e148]: "06"
+              - generic [ref=f8e149]:
+                - heading "Gridbot" [level=3] [ref=f8e150]
+                - paragraph [ref=f8e151]: GRID TRADING BACKTEST
+              - generic [ref=f8e152]:
+                - generic [ref=f8e153]:
+                  - generic [ref=f8e154]: Python
+                  - generic [ref=f8e155]: Pandas
+                - generic [ref=f8e156]: "2022"
+          - button "07 Typo 中文排版引擎 CHINESE TYPOGRAPHY LIB TypeScript 2021" [ref=f8e160] [cursor=pointer]:
+            - generic [ref=f8e161]:
+              - generic [ref=f8e162]:
+                - generic [ref=f8e163]: "07"
+                - generic [ref=f8e164]: "07"
+                - generic [ref=f8e165]: "07"
+              - generic [ref=f8e166]:
+                - heading "Typo 中文排版引擎" [level=3] [ref=f8e167]
+                - paragraph [ref=f8e168]: CHINESE TYPOGRAPHY LIB
+              - generic [ref=f8e169]:
+                - generic [ref=f8e170]: TypeScript
+                - generic [ref=f8e172]: "2021"
+          - button "08 Dotfiles ENVIRONMENT AS CODE Shell Lua 2019—" [ref=f8e176] [cursor=pointer]:
+            - generic [ref=f8e177]:
+              - generic [ref=f8e178]:
+                - generic [ref=f8e179]: "08"
+                - generic [ref=f8e180]: "08"
+                - generic [ref=f8e181]: "08"
+              - generic [ref=f8e182]:
+                - heading "Dotfiles" [level=3] [ref=f8e183]
+                - paragraph [ref=f8e184]: ENVIRONMENT AS CODE
+              - generic [ref=f8e185]:
+                - generic [ref=f8e186]:
+                  - generic [ref=f8e187]: Shell
+                  - generic [ref=f8e188]: Lua
+                - generic [ref=f8e189]: 2019—
+        - generic [ref=f8e191]:
+          - paragraph [ref=f8e192]: 08 / 08 篇报道
+          - generic [ref=f8e193]: 点击任意项目 → 查看详情
+      - generic [ref=f8e196]:
+        - paragraph [ref=f8e197]: 没找到想看的？
+        - link "去 G i t H u b 看 我 的 全 部 开 源 →" [ref=f8e198] [cursor=pointer]:
+          - /url: https://github.com/chenweiyuan
+          - generic [ref=f8e199]:
+            - generic [ref=f8e200]: 去
+            - generic [ref=f8e201]: G
+            - generic [ref=f8e202]: i
+            - generic [ref=f8e203]: t
+            - generic [ref=f8e204]: H
+            - generic [ref=f8e205]: u
+            - generic [ref=f8e206]: b
+            - generic [ref=f8e207]: 看
+            - generic [ref=f8e208]: 我
+            - generic [ref=f8e209]: 的
+            - generic [ref=f8e210]: 全
+            - generic [ref=f8e211]: 部
+            - generic [ref=f8e212]: 开
+            - generic [ref=f8e213]: 源
+            - generic [ref=f8e214]: →
+        - paragraph [ref=f8e215]: github.com/chenweiyuan — 每周都在提交
+  - contentinfo [ref=f8e216]:
+    - generic [ref=f8e219]:
+      - generic [ref=f8e220]:
+        - generic [ref=f8e221]: Keep Shipping — 持续交付
+        - generic [ref=f8e222]: Stay Curious — 保持好奇
+        - generic [ref=f8e223]: In Code We Trust — 相信代码
+        - generic [ref=f8e224]: Ship It — 先交付再说
+      - generic [ref=f8e225]:
+        - generic [ref=f8e226]: Keep Shipping — 持续交付
+        - generic [ref=f8e227]: Stay Curious — 保持好奇
+        - generic [ref=f8e228]: In Code We Trust — 相信代码
+        - generic [ref=f8e229]: Ship It — 先交付再说
+    - generic [ref=f8e230]:
+      - generic [ref=f8e231]:
+        - paragraph [ref=f8e232]: Sitemap / 站点地图
+        - list [ref=f8e233]:
+          - listitem [ref=f8e234]:
+            - link "首页HOME" [ref=f8e235] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f8e236]:
+            - link "作品WORKS" [ref=f8e237] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f8e238]:
+            - link "经历PROFILE" [ref=f8e239] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f8e240]:
+            - link "写作WRITING" [ref=f8e241] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f8e242]:
+            - link "联系CONTACT" [ref=f8e243] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f8e244]:
+        - paragraph [ref=f8e245]: Elsewhere / 其它角落
+        - list [ref=f8e246]:
+          - listitem [ref=f8e247]:
+            - link "GitHub ↗" [ref=f8e248] [cursor=pointer]:
+              - /url: https://github.com/chenweiyuan
+              - text: GitHub
+              - generic [ref=f8e251]: ↗
+          - listitem [ref=f8e252]:
+            - link "掘金 ↗" [ref=f8e253] [cursor=pointer]:
+              - /url: https://juejin.cn/user/chenweiyuan
+              - text: 掘金
+              - generic [ref=f8e254]: ↗
+          - listitem [ref=f8e255]:
+            - link "X / Twitter ↗" [ref=f8e256] [cursor=pointer]:
+              - /url: https://x.com/chenweiyuan
+              - text: X / Twitter
+              - generic [ref=f8e259]: ↗
+          - listitem [ref=f8e260]:
+            - link "RSS ↗" [ref=f8e261] [cursor=pointer]:
+              - /url: /chenweiyuan.dev/feed.xml
+              - text: RSS
+              - generic [ref=f8e266]: ↗
+      - generic [ref=f8e267]:
+        - paragraph [ref=f8e268]: Colophon / 版权
+        - paragraph [ref=f8e269]: © 2025 陈未远 (Chen Weiyuan)
+        - paragraph [ref=f8e270]: Designed & Built by Chen Weiyuan, 2025本刊为虚构占位内容，图片素材已做版权水印清理。
+        - button "回到顶部" [ref=f8e271] [cursor=pointer]
+    - paragraph [ref=f8e275]: Weiyuan.Chen

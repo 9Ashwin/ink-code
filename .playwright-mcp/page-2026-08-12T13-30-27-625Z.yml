@@ -1,0 +1,225 @@
+- generic [ref=f11e3]:
+  - banner [ref=f11e4]:
+    - generic [ref=f11e5]:
+      - link "C.W.Y — INK & CODE® VOL.01 — 2025" [ref=f11e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f11e7]:
+          - text: C.W.Y — INK & CODE
+          - superscript [ref=f11e8]: ®
+        - generic [ref=f11e9]: VOL.01 — 2025
+      - navigation "主导航" [ref=f11e10]:
+        - link "HOME" [ref=f11e11] [cursor=pointer]:
+          - /url: /
+        - link "WORKS" [ref=f11e12] [cursor=pointer]:
+          - /url: /projects
+        - link "PROFILE" [ref=f11e13] [cursor=pointer]:
+          - /url: /about
+        - link "WRITING" [ref=f11e14] [cursor=pointer]:
+          - /url: /blog
+        - link "CONTACT" [ref=f11e15] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f11e16]:
+        - link "GitHub" [ref=f11e17] [cursor=pointer]:
+          - /url: https://github.com/chenweiyuan
+        - link "邮箱" [ref=f11e20] [cursor=pointer]:
+          - /url: mailto:hi@chenweiyuan.dev
+        - generic [ref=f11e24]: Open to Work
+  - main [ref=f11e29]:
+    - generic [ref=f11e31]:
+      - generic [ref=f11e33]:
+        - paragraph [ref=f11e34]: VOL.05 — CONTACT / 读者来信
+        - heading "来 杯 咖 啡 ？ SAY HELLO." [level=1] [ref=f11e35]:
+          - generic [ref=f11e36]:
+            - generic [ref=f11e37]: 来
+            - generic [ref=f11e38]: 杯
+            - generic [ref=f11e39]: 咖
+            - generic [ref=f11e40]: 啡
+            - generic [ref=f11e41]: ？
+          - generic "SAY HELLO." [ref=f11e42]:
+            - generic [ref=f11e43]: S
+            - generic [ref=f11e44]: A
+            - generic [ref=f11e45]: "Y"
+            - generic [ref=f11e47]: H
+            - generic [ref=f11e48]: E
+            - generic [ref=f11e49]: L
+            - generic [ref=f11e50]: L
+            - generic [ref=f11e51]: O
+            - generic [ref=f11e52]: .
+        - paragraph [ref=f11e53]: 通常 24 小时内回信 · 远程协作优先 · 谢绝 KPI 面议
+      - generic [ref=f11e55]:
+        - generic [ref=f11e57]:
+          - paragraph [ref=f11e59]: LETTERS TO THE EDITOR — 编辑部收
+          - generic [ref=f11e60]:
+            - generic [ref=f11e62]:
+              - generic [ref=f11e63]:
+                - text: 你的名字 / NAME
+                - generic [ref=f11e64]: "*"
+              - textbox "怎么称呼你？" [ref=f11e65]: 张三
+            - generic [ref=f11e69]:
+              - generic [ref=f11e70]:
+                - text: 邮箱 / EMAIL
+                - generic [ref=f11e71]: "*"
+              - textbox "name@example.com" [ref=f11e72]: zhangsan@example.com
+            - generic [ref=f11e76]:
+              - generic [ref=f11e77]: 来意 / SUBJECT
+              - generic [ref=f11e78]:
+                - button "项目合作" [ref=f11e79] [cursor=pointer]
+                - button "全职机会" [ref=f11e80] [cursor=pointer]
+                - button "技术交流" [ref=f11e81] [cursor=pointer]
+                - button "只是想打个招呼" [ref=f11e82] [cursor=pointer]
+            - generic [ref=f11e86]:
+              - generic [ref=f11e87]:
+                - text: 正文 / MESSAGE
+                - generic [ref=f11e88]: "*"
+              - textbox "随便写，这里没有字数限制，只有诚意检测（开玩笑的）。" [ref=f11e89]: 想约一杯咖啡聊聊数据可视化项目。
+            - button "寄出这封信 →" [ref=f11e93] [cursor=pointer]
+          - generic [ref=f11e262]:
+            - generic [ref=f11e263]:
+              - paragraph [ref=f11e264]: Received
+              - paragraph [ref=f11e265]: 已收到
+            - paragraph [ref=f11e266]: 信已收到，我会尽快回信。— 陈
+            - paragraph [ref=f11e267]: （演示态，未真实发送）
+        - complementary [ref=f11e97]:
+          - paragraph [ref=f11e98]: Editorial Desk / 编辑部
+          - generic [ref=f11e99]:
+            - generic [ref=f11e100]:
+              - generic [ref=f11e101]: EMAIL
+              - button "hi@chenweiyuan.dev" [ref=f11e102] [cursor=pointer]
+            - link "GITHUB github.com/chenweiyuan ↗" [ref=f11e103] [cursor=pointer]:
+              - /url: https://github.com/chenweiyuan
+              - generic [ref=f11e104]: GITHUB
+              - generic [ref=f11e105]:
+                - text: github.com/chenweiyuan
+                - generic [ref=f11e106]: ↗
+            - link "BLOG / 掘金 juejin.cn/user/chenweiyuan ↗" [ref=f11e107] [cursor=pointer]:
+              - /url: https://juejin.cn/user/chenweiyuan
+              - generic [ref=f11e108]: BLOG / 掘金
+              - generic [ref=f11e109]:
+                - text: juejin.cn/user/chenweiyuan
+                - generic [ref=f11e110]: ↗
+            - link "X / TWITTER @chenweiyuan ↗" [ref=f11e111] [cursor=pointer]:
+              - /url: https://x.com/chenweiyuan
+              - generic [ref=f11e112]: X / TWITTER
+              - generic [ref=f11e113]:
+                - text: "@chenweiyuan"
+                - generic [ref=f11e114]: ↗
+            - link "RSS chenweiyuan.dev/feed.xml ↗" [ref=f11e115] [cursor=pointer]:
+              - /url: /chenweiyuan.dev/feed.xml
+              - generic [ref=f11e116]: RSS
+              - generic [ref=f11e117]:
+                - text: chenweiyuan.dev/feed.xml
+                - generic [ref=f11e118]: ↗
+            - paragraph [ref=f11e120]: 上海 · 静安 / 31.23°N, 121.47°E
+            - generic [ref=f11e137]:
+              - paragraph [ref=f11e142]: 当前状态：可接远程协作与顾问项目
+              - paragraph [ref=f11e143]: 更新时间 2025.03
+      - generic [ref=f11e146]:
+        - generic [ref=f11e147]:
+          - generic [ref=f11e148]: 02 —
+          - generic [ref=f11e151]:
+            - heading "FAQ / 来信前必读" [level=2] [ref=f11e152]
+            - paragraph [ref=f11e153]: FREQUENTLY ASKED
+        - generic [ref=f11e155]:
+          - generic [ref=f11e156]:
+            - button "01你接什么样的项目？ +" [expanded] [ref=f11e157] [cursor=pointer]:
+              - generic [ref=f11e158]:
+                - generic [ref=f11e159]: "01"
+                - text: 你接什么样的项目？
+              - generic [ref=f11e160]: +
+            - paragraph [ref=f11e162]: 有技术挑战或有意思的领域：开发者工具、实时系统、数据可视化。周期 2 周以上的远程协作最佳。
+          - button "02接全职 offer 吗？ +" [ref=f11e164] [cursor=pointer]:
+            - generic [ref=f11e165]:
+              - generic [ref=f11e166]: "02"
+              - text: 接全职 offer 吗？
+            - generic [ref=f11e167]: +
+          - button "03可以约线下咖啡吗？ +" [ref=f11e169] [cursor=pointer]:
+            - generic [ref=f11e170]:
+              - generic [ref=f11e171]: "03"
+              - text: 可以约线下咖啡吗？
+            - generic [ref=f11e172]: +
+          - button "04这个网站用什么做的？ +" [ref=f11e174] [cursor=pointer]:
+            - generic [ref=f11e175]:
+              - generic [ref=f11e176]: "04"
+              - text: 这个网站用什么做的？
+            - generic [ref=f11e177]: +
+      - generic [ref=f11e179]:
+        - heading "期 待 你 的 来 信" [level=2] [ref=f11e180]:
+          - generic [ref=f11e181]: 期
+          - generic [ref=f11e182]: 待
+          - generic [ref=f11e183]: 你
+          - generic [ref=f11e184]: 的
+          - generic [ref=f11e185]: 来
+          - generic [ref=f11e186]: 信
+        - paragraph [ref=f11e187]:
+          - generic [ref=f11e188]: T
+          - generic [ref=f11e189]: A
+          - generic [ref=f11e190]: L
+          - generic [ref=f11e191]: K
+          - generic [ref=f11e192]: S
+          - generic [ref=f11e193]: O
+          - generic [ref=f11e194]: O
+          - generic [ref=f11e195]: "N"
+          - generic [ref=f11e196]: .
+        - paragraph [ref=f11e198]: P.S. 附上图更好聊
+        - generic [ref=f11e199]: REPLY GUARANTEED / 必回
+        - paragraph [ref=f11e201]: "*诚意检测通过率 99.7%"
+  - contentinfo [ref=f11e202]:
+    - generic [ref=f11e205]:
+      - generic [ref=f11e206]:
+        - generic [ref=f11e207]: Keep Shipping — 持续交付
+        - generic [ref=f11e208]: Stay Curious — 保持好奇
+        - generic [ref=f11e209]: In Code We Trust — 相信代码
+        - generic [ref=f11e210]: Ship It — 先交付再说
+      - generic [ref=f11e211]:
+        - generic [ref=f11e212]: Keep Shipping — 持续交付
+        - generic [ref=f11e213]: Stay Curious — 保持好奇
+        - generic [ref=f11e214]: In Code We Trust — 相信代码
+        - generic [ref=f11e215]: Ship It — 先交付再说
+    - generic [ref=f11e216]:
+      - generic [ref=f11e217]:
+        - paragraph [ref=f11e218]: Sitemap / 站点地图
+        - list [ref=f11e219]:
+          - listitem [ref=f11e220]:
+            - link "首页HOME" [ref=f11e221] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f11e222]:
+            - link "作品WORKS" [ref=f11e223] [cursor=pointer]:
+              - /url: /projects
+          - listitem [ref=f11e224]:
+            - link "经历PROFILE" [ref=f11e225] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=f11e226]:
+            - link "写作WRITING" [ref=f11e227] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f11e228]:
+            - link "联系CONTACT" [ref=f11e229] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f11e230]:
+        - paragraph [ref=f11e231]: Elsewhere / 其它角落
+        - list [ref=f11e232]:
+          - listitem [ref=f11e233]:
+            - link "GitHub ↗" [ref=f11e234] [cursor=pointer]:
+              - /url: https://github.com/chenweiyuan
+              - text: GitHub
+              - generic [ref=f11e237]: ↗
+          - listitem [ref=f11e238]:
+            - link "掘金 ↗" [ref=f11e239] [cursor=pointer]:
+              - /url: https://juejin.cn/user/chenweiyuan
+              - text: 掘金
+              - generic [ref=f11e240]: ↗
+          - listitem [ref=f11e241]:
+            - link "X / Twitter ↗" [ref=f11e242] [cursor=pointer]:
+              - /url: https://x.com/chenweiyuan
+              - text: X / Twitter
+              - generic [ref=f11e245]: ↗
+          - listitem [ref=f11e246]:
+            - link "RSS ↗" [ref=f11e247] [cursor=pointer]:
+              - /url: /chenweiyuan.dev/feed.xml
+              - text: RSS
+              - generic [ref=f11e252]: ↗
+      - generic [ref=f11e253]:
+        - paragraph [ref=f11e254]: Colophon / 版权
+        - paragraph [ref=f11e255]: © 2025 陈未远 (Chen Weiyuan)
+        - paragraph [ref=f11e256]: Designed & Built by Chen Weiyuan, 2025本刊为虚构占位内容，图片素材已做版权水印清理。
+        - button "回到顶部" [ref=f11e257] [cursor=pointer]
+    - paragraph [ref=f11e261]: Weiyuan.Chen
