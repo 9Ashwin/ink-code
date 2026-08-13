@@ -56,9 +56,38 @@ push `master` 自动触发 `.github/workflows/deploy.yml` 构建并发布到 Git
 | 站点标题 / SEO / OG | `index.html` |
 | 视觉 token（色板 / 字体 / 硬阴影） | `tailwind.config.js` + `src/index.css` |
 
-## 📦 技能来源
+## 🧩 Part 2 · Claude Code 技能
 
 本站由 `editorial-portfolio-builder` 技能工作流构建（需求确认 → 读蓝图 → 脚手架 → 4 页面并行 → 合并 → 交付）。
+
+**收录技能**：
+
+| 技能 | 触发 | 说明 |
+|---|---|---|
+| **editorial-portfolio-builder** | `/editorial-portfolio-builder` | 一站式构建「墨色杂志编辑风」个人简历 / 作品展示网站：完整视觉设计系统（米白纸底 + 墨黑 + 信号橙、Archivo Black 刊头 × 中文衬线、撕纸/印章/胶带/半调网点拼贴、硬阴影、GSAP 滚动叙事）、6 份原始设计文档、14 个真实图片素材、Tailwind 配置与全局 CSS，以及从需求确认到多代理并行开发、合并构建、版本交付的完整工作流和防坑契约 |
+
+**安装**：
+
+```bash
+# npx skills（推荐）
+npx skills add https://github.com/9Ashwin/ink-code --skill editorial-portfolio-builder
+
+# Claude marketplace
+claude plugin marketplace add 9Ashwin/ink-code
+claude plugin install claude-skills@claude-skills
+
+# 手动下载 .skill 单文件
+curl -L -o ~/.claude/skills/editorial-portfolio-builder.skill \
+  https://raw.githubusercontent.com/9Ashwin/ink-code/master/plugins/editorial-portfolio-builder.skill
+```
+
+**技能结构**：
+
+```
+skills/<name>/     技能源（SKILL.md + assets/ + references/）
+plugins/*.skill    单文件包（自包含 zip，下载即用）
+.claude-plugin/    marketplace 清单 + 插件清单（单插件，source: "./"）
+```
 
 ## 📄 License
 

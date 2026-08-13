@@ -1,0 +1,8 @@
+{
+  "name": "claude-skills",
+  "description": "中文 Claude Code 技能：editorial-portfolio-builder 墨色杂志编辑风个人简历/作品集网站构建技能",
+  "author": {
+    "name": "9Ashwin"
+  },
+  "version": "1.0.0"
+}

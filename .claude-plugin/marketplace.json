@@ -1,0 +1,23 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "9Ashwin",
+    "url": "https://github.com/9Ashwin"
+  },
+  "description": "中文 Claude Code 技能合集：editorial-portfolio-builder 墨色杂志编辑风作品集站构建技能",
+  "plugins": [
+    {
+      "name": "claude-skills",
+      "source": "./",
+      "description": "中文 Claude Code 技能：editorial-portfolio-builder 一站式构建墨色杂志编辑风个人简历/作品集网站（米白纸底 + 墨黑 + 信号橙、Archivo Black 刊头 × 中文衬线、撕纸/印章/胶带/半调网点拼贴、GSAP 滚动叙事），含完整设计系统、原始设计文档、真实图片素材与多代理构建工作流",
+      "category": "design",
+      "keywords": [
+        "editorial",
+        "portfolio",
+        "magazine",
+        "web-design",
+        "resume"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+/* editorial-portfolio-builder — 全局 CSS（墨色杂志编辑风）
+ * 依赖 Tailwind 3.4，合并进全局 css。
+ * Google Fonts（Archivo Black + Noto Serif SC + Noto Sans SC + JetBrains Mono）：
+ * https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap
+ */
+
+@layer base {
+  :root { --radius: 2px; }
+  body {
+    background-color: #f4f1ea;
+    color: #14120e;
+    font-family: "Noto Sans SC", sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: #ff4d00; color: #f4f1ea; }
+}
+
+@layer utilities {
+  /* —— 字体 —— */
+  .font-display { font-family: "Archivo Black", "Noto Sans SC", sans-serif; } /* 英文超大刊头，大写，ls -0.02em */
+  .font-serifcn { font-family: "Noto Serif SC", serif; }                       /* 中文衬线大标题（700/900） */
+  .font-mono2   { font-family: "JetBrains Mono", monospace; }                  /* 日期/编号/标签/代码——工程师签名 */
+
+  /* —— 空心描边大字（跨栏排版/出血标题） —— */
+  .text-outline       { -webkit-text-stroke: 1.5px #14120e; color: transparent; }
+  .text-outline-paper { -webkit-text-stroke: 1.5px #f4f1ea; color: transparent; }
+
+  /* —— 半调网点纹理（区块过渡带） —— */
+  .halftone       { background-image: radial-gradient(rgba(20,18,14,0.14) 1.2px, transparent 1.2px); background-size: 9px 9px; }
+  .halftone-paper { background-image: radial-gradient(rgba(244,241,234,0.14) 1.2px, transparent 1.2px); background-size: 9px 9px; }
+
+  /* —— 纸张颗粒叠加（全局或区块，配 texture-grain.jpg） —— */
+  .grain-overlay {
+    background-image: url("/texture-grain.jpg");
+    background-size: 180px 180px;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+
+  /* —— 1px 墨线 + 硬阴影（印刷拼贴卡片） —— */
+  .shadow-brutal        { box-shadow: 4px 4px 0 0 #14120e; }
+  .shadow-brutal-sm     { box-shadow: 2px 2px 0 0 #14120e; }
+  .shadow-brutal-signal { box-shadow: 4px 4px 0 0 #ff4d00; }
+
+  /* —— 编辑细线 —— */
+  .rule       { border-color: rgba(20,18,14,0.16); }
+  .rule-solid { border-color: #14120e; }
+
+  /* —— 胶带（半透明米色，贴图片角） —— */
+  .tape {
+    background: linear-gradient(105deg, rgba(232,227,216,0.9) 0%, rgba(232,227,216,0.6) 50%, rgba(214,208,193,0.85) 100%);
+    box-shadow: 0 1px 3px rgba(20,18,14,0.2);
+  }
+
+  /* —— 撕纸边缘 —— */
+  .torn-bottom { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), 96% 100%, 90% calc(100% - 8px), 84% 100%, 76% calc(100% - 12px), 68% calc(100% - 4px), 60% 100%, 52% calc(100% - 9px), 44% 100%, 36% calc(100% - 6px), 28% 100%, 20% calc(100% - 11px), 12% calc(100% - 5px), 6% 100%, 0 calc(100% - 10px)); }
+
+  .vertical-rl { writing-mode: vertical-rl; } /* 竖排 mono 注 */
+
+  /* —— 黑白照片统一处理（编辑摄影风） —— */
+  .photo-editorial { filter: grayscale(1) contrast(1.12); }
+}
+
+/* —— 跑马灯 / 印章回旋 —— */
+@keyframes marquee-x     { from { transform: translateX(0); }    to { transform: translateX(-50%); } }
+@keyframes marquee-x-rev { from { transform: translateX(-50%); } to { transform: translateX(0); } }
+@keyframes spin-slow     { to { transform: rotate(360deg); } }
+.animate-marquee     { animation: marquee-x 28s linear infinite; }
+.animate-marquee-rev { animation: marquee-x-rev 34s linear infinite; }
+.animate-spin-slow   { animation: spin-slow 14s linear infinite; }
+
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
